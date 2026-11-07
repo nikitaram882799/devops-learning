@@ -1,0 +1,22 @@
+# Day 2: Users, processes, and system status
+
+- whoami: prints the user you're logged in as
+- id: shows your user ID, group ID, and groups
+- sudo: runs one command as root using your own password
+- ps: lists processes in the current terminal
+- ps aux: lists all processes on the system
+- ps aux | grep: filters the process list for a word
+- tty: shows which terminal you're in
+- sleep 300 &: runs a command in the background
+- jobs: lists background jobs in the current shell
+- kill PID: sends SIGTERM, asking a process to stop cleanly
+- kill -9 PID: sends SIGKILL, stopping a process immediately
+- top: live view of processes sorted by CPU
+- htop: a more readable version of top
+- free -m: shows RAM use, with "available" as the key number
+- df -h: shows disk space used per filesystem
+- lsof FILE: shows which processes have a file open
+- head -N: shows the first N lines of a file
+- tail -N: shows the last N lines of a file
+- tail -f: follows a file and prints new lines as they're added
+- dmesg: shows kernel messages
